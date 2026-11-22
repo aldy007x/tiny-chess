@@ -46,3 +46,5 @@ MIT — see `LICENSE`.
 ## Round 2 tuning (22 Nov 2026)
 
 The engine's late-move reduction was deepened for very late quiet moves at depth 4 and beyond. In head-to-head A/B play against the previous version (fixed 25,000 nodes per move, colour-swapped openings, 48 unique games) the change scored 13 wins, 31 draws and 4 losses — about +66 Elo, with the 95% confidence interval clear of zero. The packed entry stays within the 4,096-byte limit (3,337 bytes).
+
+In the final, paid places (top 20) go only to entries whose mean Elo beats the house baseline's mean — sunfish's 4 KB entry — with the paired 90% interval of the lead above zero; places then rank by mean Elo.
